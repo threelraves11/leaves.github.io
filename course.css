@@ -1,0 +1,76 @@
+/* 精品课程 开始 */
+#main_course{
+    width: 100%; /* 与轮播图宽度一致 */
+    max-width: 1200px; /* 限制最大宽度 */
+    margin: 0 auto; /* 水平居中，与轮播图一致 */
+    overflow: hidden;
+    background: url("img/book_bg.png") 50% no-repeat #F9F9F9;
+    padding-bottom: 100px;
+	margin-top: 40px;
+}
+
+.course_title{
+    width: 1200px;
+    height: auto;
+    margin: 40px auto;
+    font-size: 30px;
+    font-weight: bold;
+	text-align: center;
+}
+
+.course_title>h3{
+    color: #9BDBC6;
+}
+
+.course_title h3>i{
+    color: #CFE3DE;
+}
+
+.course_title>h4{
+    width: 210px;
+    border-bottom: 1px solid #009C78;
+    position: relative;
+    padding: 0px 0px 20px;
+	margin: auto;
+    color: #009C78;
+}
+
+.course_title>h4::before{
+    content: '';
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #009C78;
+    bottom: 0px;
+    left: 87px;
+}
+
+table{
+	width: 1180px;
+    border: solid 1px #333333; 
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+th,#main_course .t1{
+	font-family: "隶书";
+	font-size: 40px;
+	color: #009C78;
+	border: solid 1px #b9b9b9;
+}
+
+td{
+	font-size: 20px;
+	color: #434343;
+	height: 40px;
+	border: solid 1px #b9b9b9;
+    text-align: center;
+}
+
+td del{
+    color: #c2c2c2;
+    font-size: 15px;
+    padding: 10px;
+}
+
